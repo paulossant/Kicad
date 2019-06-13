@@ -152,10 +152,10 @@ Text GLabel 3400 5200 0    50   Input ~ 0
 Wire Notes Line
 	3650 1950 3650 6100
 $Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U?
+L MCU_ST_STM32F1:STM32F103C8Tx U2
 U 1 1 5D02FAC9
 P 2200 3950
-F 0 "U?" H 2150 2200 50  0000 C CNN
+F 0 "U2" H 2150 2200 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 2150 2100 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1600 2550 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 2200 3950 50  0001 C CNN
@@ -163,23 +163,23 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x24_Female J?
+L Connector:Conn_01x24_Female J3
 U 1 1 5D05A9C9
 P 3600 4000
-F 0 "J?" H 3450 5450 50  0000 L CNN
+F 0 "J3" H 3450 5450 50  0000 L CNN
 F 1 "Conn_01x24_Female" H 2850 5300 50  0000 L CNN
-F 2 "" H 3600 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 3600 4000 50  0001 C CNN
 F 3 "~" H 3600 4000 50  0001 C CNN
 	1    3600 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x24_Female J?
+L Connector:Conn_01x24_Female J2
 U 1 1 5D05F386
 P 650 4000
-F 0 "J?" H 600 5350 50  0000 C CNN
+F 0 "J2" H 600 5350 50  0000 C CNN
 F 1 "Conn_01x24_Female" H 300 5250 50  0000 C CNN
-F 2 "" H 650 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 650 4000 50  0001 C CNN
 F 3 "~" H 650 4000 50  0001 C CNN
 	1    650  4000
 	-1   0    0    -1  
